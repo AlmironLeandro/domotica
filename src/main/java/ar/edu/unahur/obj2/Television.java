@@ -1,6 +1,6 @@
 package ar.edu.unahur.obj2;
 
-public class Television {
+public class Television implements productoElectronico {
 
     private boolean encendida = false;
 

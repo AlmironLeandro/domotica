@@ -1,15 +1,15 @@
 package ar.edu.unahur.obj2;
 
-public class LuzExterior {
+public class LuzExterior  implements productoElectronico{
 
     private boolean encendida = false;
 
-    void on() {
+    public void on() {
         encendida = true;
         System.out.println("Luz Exterior encendida");
     }
 
-    void off() {
+    public void off() {
         encendida = false;
         System.out.println("Luz Exterior apagada");
     }

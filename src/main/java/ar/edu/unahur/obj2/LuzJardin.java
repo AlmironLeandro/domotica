@@ -2,16 +2,16 @@ package ar.edu.unahur.obj2;
 
 import org.joda.time.DateTime;
 
-public class LuzJardin {
+public class LuzJardin implements productoElectronico {
 
     private boolean encendida = false;
 
-    void manualOn() {
+    public void on() {
         encendida = true;
         System.out.println("Luz Jardin encendida");
     }
 
-    void manualOff() {
+    public void off() {
         encendida = false;
         System.out.println("Luz Jardin apagada");
     }

@@ -1,6 +1,6 @@
 package ar.edu.unahur.obj2;
 
-public class Stereo {
+public class Stereo  implements productoElectronico {
 
     private boolean encendida = false;
 
@@ -9,12 +9,11 @@ public class Stereo {
     private String radio;
     private int volumen;
 
-    void on() {
+   public void on() {
         encendida = true;
         System.out.println("Stereo encendido");
     }
-
-    void off() {
+    public void off() {
         encendida = false;
         System.out.println("Stereo apagado");
     }

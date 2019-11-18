@@ -1,15 +1,15 @@
 package ar.edu.unahur.obj2;
 
-public class LuzTecho {
+public class LuzTecho implements productoElectronico {
 
     private boolean encendida = false;
 
-    void on() {
+    public void on() {
         encendida = true;
         System.out.println("Luz Techo encendida");
     }
 
-    void off() {
+    public void off() {
         encendida = false;
         System.out.println("Luz Techo apagada");
     }
